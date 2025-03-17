@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+  <h1>Checkout</h1>
+  <div class="row">
+    <div class="col-75">
+      <div class="container">
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+              <label for="fname"><img src="icons\user_icon.png" alt="user logo" style="width:22px;height:22px;"> Full Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+              <label for="email"><img src="icons\email_icon.png" alt="email logo" style="width:22px;height:22px;"> Email</label>
+              <input type="text" id="email" name="email" placeholder="john@example.com">
+              <label for="adr"><img src="icons\address_icon.png" alt="address logo" style="width:16px;height:22px;"> Address</label>
+              <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+              <label for="city"><img src="icons\city_icon.png" alt="address logo" style="width:22px;height:22px;"> City</label>
+              <input type="text" id="city" name="city" placeholder="San Antonio">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="TX">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <img src="icons\visa-logo-png-transparent.png" alt="visa logo" style="width:52px;height:22px;">
+              <img src="icons\american express_amex_card.png" alt="amex logo" style="width:42px;height:22px;">
+              <img src="icons\mastercard_icon.png" alt="mastercard logo" style="width:42px;height:22px;">
+              <img src="icons\card_credit_discover_logo.png" alt="discover logo" style="width:42px;height:22px;">
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John  Doe">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2028">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Finalize checkout" class="btn">
+      </form>
+      </div>
+    </div>
+    <div class="col-25">
+      <div class="container">
+        <h4>Cart <span class="price" style="color:black">
+          <img src="icons\cart_shopping_icon.png" alt="cart logo" style="width:22px;height:22px;"> <b>4</b></span></h4>
+        <p><a href="#">Healing Potion</a> <span class="price">$15</span></p>
+        <p><a href="#">Wind Staff</a> <span class="price">$50</span></p>
+        <p><a href="#">Intermediate Grimoire</a> <span class="price">$82</span></p>
+        <p><a href="#">Magic Cloak</a> <span class="price">$25</span></p>
+        <hr>
+        <p>Total <span class="price" style="color:black"><b>$172</b></span></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
