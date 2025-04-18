@@ -63,6 +63,19 @@ label{
     padding: 7px 0;
     font-size: 24px;
 }
+
+.first {
+    width: 300px;
+    float: left;
+    height: 250px;
+    
+}
+.second {
+    width: 300px;
+    float: left;
+    height: 230px;
+    padding-left: 20;
+}
   
 .btn{
     background-color: #04AA6D;
